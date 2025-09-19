@@ -1,0 +1,97 @@
+{
+  "pageTitle": {
+    "heading": "{{zoneName}}",
+    "title": "{{hlgName}}",
+    "badge": "{{marked}}/{{total}}",
+    "loadingError": "Failed to load your HLG details. Check console."
+  },
+  "chips": {
+    "present": "Present {{count}}",
+    "notified": "Notified {{count}}",
+    "noShow": "No-show {{count}}",
+    "unmarked": "Unmarked {{count}}"
+  },
+  "memberRow": {
+    "present": "Present",
+    "presentAria": "Mark {{name}} present",
+    "notified": "Notified",
+    "notifiedAria": "Mark {{name}} absent with notification",
+    "noShow": "No-show",
+    "noShowAria": "Mark {{name}} absent without notification",
+    "hasNoteAria": "This member has a note",
+    "noPhone": "No phone number"
+  },
+  "form": {
+    "sessionTitleLabel": "Session Title / Topic",
+    "sessionTitlePlaceholder": "e.g., Book of John — Chapter 2",
+    "sessionDateLabel": "Session Date",
+    "photosLabel": "Meeting Photos (Optional)",
+    "addPhotosAria": "Add photos",
+    "notesLabel": "Session Notes (Optional)",
+    "notesPlaceholder": "Add any additional comments about the session..."
+  },
+  "submitBar": {
+    "marked": "{{marked}}/{{total}} marked",
+    "review": "Review and submit",
+    "summary": "Summary",
+    "submit": "Submit"
+  },
+  "notifiedSheet": {
+    "label": "Notification details",
+    "title": "Absent with notification",
+    "subtitle": "Choose a reason and optional note",
+    "noteLabel": "Optional note",
+    "notePlaceholder": "e.g., Doctor's appointment",
+    "reasons": {
+      "sick": "Sick",
+      "travel": "Travel",
+      "family": "Family",
+      "work": "Work",
+      "emergency": "Emergency",
+      "other": "Other"
+    }
+  },
+  "summaryModal": {
+    "label": "Submission Summary",
+    "title": "Submission Summary",
+    "closeAria": "Close summary",
+    "photosAttached": "Photos attached:",
+    "tableHeaderName": "Name",
+    "tableHeaderStatus": "Status",
+    "tableHeaderNote": "Note",
+    "error": "Submission Failed: {{error}}",
+    "uploadError": "Upload Incomplete: Some photos failed to upload. You can remove them or try again before submitting.",
+    "resetAll": "Reset all",
+    "confirmReset": "Are you sure? This will clear all attendance marks and remove uploaded photos for this session.",
+    "buttonConfirm": "Confirm Submit",
+    "buttonUploading": "Uploading...",
+    "buttonSubmitting": "Submitting...",
+    "buttonRetry": "Retry Submission"
+  },
+  "successScreen": {
+    "titleCreate": "Submission Successful!",
+    "titleUpdate": "Update Successful!",
+    "subtitle": "Your attendance record has been saved.",
+    "submissionId": "Submission ID: {{id}}",
+    "returnToDashboard": "Return to Dashboard"
+  },
+  "photoUpload": {
+    "removeAria": "Remove photo {{name}}",
+    "error": "Upload failed"
+  },
+  "statusPill": {
+    "present": "Present",
+    "notified": "Notified",
+    "absent": "No-show",
+    "unmarked": "—"
+  },
+  "alerts": {
+    "photosUploading": "Please wait for all photos to finish uploading before submitting.",
+    "submissionSuccess": "Submitted! ID: {{id}}\nPresent: {{present}}, Notified: {{notified}}, No-show: {{absent}}",
+    "unknownError": "An unknown error occurred."
+},
+  "membersList": {
+    "empty": "No members to show."
+  }
+
+}

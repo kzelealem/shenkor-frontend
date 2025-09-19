@@ -1,0 +1,51 @@
+{
+  "title": "የአስተባባሪ ዳሽቦርድ",
+  "zoneLabel": "ዞን: {{name}}",
+  "hlgBadge": "HLG #{{id}}",
+  "zoneBadge": "ዞን #{{id}}",
+  "loadingError": "ዳሽቦርዱን መጫን አልተቻለም",
+  "primaryAction": {
+    "submittedTitle": "የእለቱ መገኘት ተመዝግቧል",
+    "viewButton": "የተመዘገበውን ይመልከቱ ወይም ያርትዑ",
+    "takeTitle": "የዚህን ሳምንት መገኘት ይውሰዱ",
+    "avgAttendance": "አማካይ ተገኝነት: {{avg}}%",
+    "takeButton": "መገኘት ይውሰዱ"
+  },
+  "stats": {
+    "title": "በጨረፍታ",
+    "totalMembers": "አጠቃላይ አባላት",
+    "avgAttendance": "አማካይ ተገኝነት",
+    "followUps": "ክትትል"
+  },
+  "trend": {
+    "title": "የተገኝነት አዝማሚያ",
+    "label": "የመጨረሻ {{count}} ሪከርድ",
+    "label_plural": "የመጨረሻ {{count}} ሪከርዶች",
+    "noData": "ምንም መረጃ የለም",
+    "noDataYet": "እስካሁን ምንም መረጃ የለም።"
+  },
+  "nextMeeting": {
+    "title": "ቀጣይ ስብሰባ",
+    "noSchedule": "የስብሰባ ፕሮግራም የለም።",
+    "time": "{{date}} በ{{time}}",
+    "cadence": "ድግግሞሽ: {{cadence}}",
+    "tbd": "ገና አልተወሰነም"
+  },
+  "followUp": {
+    "title": "ትኩረት የሚሹ አባላት",
+    "lastSeen": "ከ {{duration}} በፊት የታዩ",
+    "call": "ይደውሉ",
+    "telegram": "ቴሌግራም",
+    "telegramTitle": "በቴሌግራም መልዕክት ይላኩ",
+    "allGoodTitle": "በጣም ጥሩ!",
+    "allGoodSubtitle": "በአሁኑ ሰዓት ክትትል የሚያስፈልገው አባል የለም።",
+    "viewAll": "ሁሉንም አባላት ይመልከቱ"
+  },
+  "history": {
+    "title": "የቅርብ ጊዜ ሪፖርቶች",
+    "attendanceFor": "የ {{date}} መገኘት",
+    "presentPercent": "{{rate}}% ተገኝተዋል",
+    "counts": "{{present}} የተገኙ • {{notified}} ያሳወቁ • {{absent}} የቀሩ",
+    "noSubmissions": "የቅርብ ጊዜ ሪፖርቶች የሉም።"
+  }
+}

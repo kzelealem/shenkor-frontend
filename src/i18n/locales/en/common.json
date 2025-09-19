@@ -1,0 +1,13 @@
+{
+  "back": "Back",
+  "loading": "Loading...",
+  "error": "Error",
+  "retry": "Retry",
+  "submit": "Submit",
+  "cancel": "Cancel",
+  "save": "Save",
+  "close": "Close",
+  "clear": "Clear",
+  "searchPlaceholder": "Search name or phone",
+  "signOut": "Sign out"
+}

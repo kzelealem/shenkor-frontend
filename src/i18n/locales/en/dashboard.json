@@ -1,0 +1,78 @@
+{
+  "title": "Coordinator dashboard",
+  "zoneLabel": "Zone: {{name}}",
+  "hlgBadge": "HLG #{{id}}",
+  "zoneBadge": "Zone #{{id}}",
+  "loadingError": "Failed to load dashboard",
+  "primaryAction": {
+    "submittedTitle": "Attendance submitted",
+    "viewButton": "View or Edit Submission",
+    "takeTitle": "Take attendance for this week",
+    "avgAttendance": "Average attendance: {{avg}}%",
+    "takeButton": "Take Attendance"
+  },
+  "stats": {
+    "title": "At a Glance",
+    "totalMembers": "Total Members",
+    "avgAttendance": "Avg Attendance",
+    "followUps": "Follow-Ups"
+  },
+  "trend": {
+    "title": "Attendance trend",
+    "label": "Last {{count}} records",
+    "noData": "No data yet."
+  },
+  "nextMeeting": {
+    "title": "Next Meeting",
+    "noSchedule": "No schedule available.",
+    "time": "{{date}} at {{time}}",
+    "cadence": "Cadence: {{cadence}}",
+    "tbd": "TBD"
+  },
+  "followUp": {
+    "title": "Member Spotlight",
+    "lastSeen": "{{duration}} ago",
+    "call": "Call",
+    "telegram": "Telegram",
+    "telegramTitle": "Message on Telegram",
+    "allGoodTitle": "Great work!",
+    "allGoodSubtitle": "No members are currently flagged for follow-up.",
+    "viewAll": "View All Members"
+  },
+  "history": {
+    "title": "Recent Submissions",
+    "attendanceFor": "Attendance for {{date}}",
+    "presentPercent": "{{rate}}% present",
+    "counts": "{{present}} Present • {{notified}} Notified • {{absent}} Absent",
+    "noSubmissions": "No recent submissions."
+  },
+  "activity": {
+    "title": "Activity",
+    "by": "by {{name}}",
+    "photo": " • {{count}} photo",
+    "noActivity": "No activity to show."
+  },
+  "coordinator": {
+    "title": "Coordinator",
+    "call": "Call",
+    "telegram": "Telegram",
+    "noInfo": "No coordinator info."
+  },
+  "health": {
+    "title": "Group Health",
+    "streak": "{{count}} week streak",
+    "policy": "Policy",
+    "policyMonth": "{{submissions}}/{{required}} this month",
+    "missingContacts": "Missing contacts",
+    "completeness": "Completeness",
+    "noData": "No data available."
+  },
+  "zoneSummary": {
+    "title": "Zone Summary",
+    "hlgCount": "HLG Count",
+    "avgAttendance": "Avg Attendance",
+    "districtRank": "District Rank",
+    "inDistrict": "in {{name}}",
+    "noMetrics": "No metrics available."
+  }
+}

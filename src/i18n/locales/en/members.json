@@ -1,0 +1,60 @@
+{
+  "pageTitle": {
+    "badge": "{{filteredCount}}/{{totalCount}}",
+    "loadingError": "Failed to load members"
+  },
+  "filters": {
+    "batchLabel": "Batch",
+    "batchAll": "All",
+    "bulkSms": "Bulk SMS ({{count}})",
+    "bulkSmsAria": "Bulk SMS to {{count}} recipients"
+  },
+  "list": {
+    "noResults": "No members match your search."
+  },
+  "row": {
+    "details": "Details",
+    "detailsAria": "Open details for {{name}}"
+  },
+  "detailSheet": {
+    "label": "Member details",
+    "batchLabel": "Batch {{batch}}",
+    "phone": "Phone",
+    "telegram": "Telegram",
+    "viaPhone": "Via Phone Number",
+    "names": "Names",
+    "call": "Call",
+    "sms": "SMS",
+    "openTelegram": "Open Telegram",
+    "copyPhone": "Copy phone",
+    "copied": "Copied ✓",
+    "share": "Share",
+    "firstName": "First",
+    "middleName": "Middle",
+    "lastName": "Last",
+    "batch": "Batch",
+    "unspecified": "—",
+    "attendanceReport": "Attendance Report",
+    "attendance": "Attendance",
+    "totalMeetings": "Total Meetings",
+    "loadingError": "Could not load attendance data.",
+    "historyDate": "Date",
+    "historyStatus": "Status"
+  },
+  "bulkSmsSheet": {
+    "label": "Bulk SMS",
+    "title": "Send SMS to {{count}} member",
+    "title_plural": "Send SMS to {{count}} members",
+    "iosWarning": "iOS limitation: group recipients can’t be prefilled. We’ll copy all numbers and open Messages — paste them into the “To:” field.",
+    "limitWarning": "For reliability, we open with the first 30 numbers. You can paste the rest if needed.",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Write your SMS…",
+    "viewRecipients": "View recipients ({{count}})",
+    "hideRecipients": "Hide recipients",
+    "andMore": "…and {{count}} more",
+    "copyNumbers": "Copy numbers",
+    "openMessages": "Open Messages",
+    "openMessagesIos": "Open Messages (copies numbers)",
+    "openMessagesIosCopied": "Open Messages — numbers copied ✓"
+  }
+}

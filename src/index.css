@@ -1,0 +1,29 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: a small utility you used in the JSX */
+@layer utilities {
+  .safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+
+  /* --- NEW: Animation for list items --- */
+  .animate-fade-in-up {
+    animation: fadeInUp 0.5s ease-out forwards;
+    opacity: 0;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Optional: improve dark-mode defaults a touch */
+:root { color-scheme: light dark; }

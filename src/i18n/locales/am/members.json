@@ -1,0 +1,60 @@
+{
+  "pageTitle": {
+    "badge": "{{filteredCount}}/{{totalCount}}",
+    "loadingError": "አባላትን መጫን አልተቻለም"
+  },
+  "filters": {
+    "batchLabel": "ባች",
+    "batchAll": "ሁሉም",
+    "bulkSms": "የቡድን መልዕክት ({{count}})",
+    "bulkSmsAria": "ለ {{count}} ተቀባዮች የቡድን መልዕክት ላክ"
+  },
+  "list": {
+    "noResults": "ከፍለጋዎ ጋር የሚዛመድ አባል የለም።"
+  },
+  "row": {
+    "details": "ዝርዝሮች",
+    "detailsAria": "የ{{name}}ን ዝርዝሮች ክፈት"
+  },
+  "detailSheet": {
+    "label": "የአባል ዝርዝሮች",
+    "batchLabel": "ባች {{batch}}",
+    "phone": "ስልክ",
+    "telegram": "ቴሌግራም",
+    "viaPhone": "በስልክ ቁጥር",
+    "names": "ስሞች",
+    "call": "ይደውሉ",
+    "sms": "SMS",
+    "openTelegram": "ቴሌግራም ክፈት",
+    "copyPhone": "ስልክ ቁጥር ቅዳ",
+    "copied": "ተቀድቷል ✓",
+    "share": "አጋራ",
+    "firstName": "ስም",
+    "middleName": "የአባት ስም",
+    "lastName": "የአያት ስም",
+    "batch": "ባች",
+    "unspecified": "—",
+    "attendanceReport": "የመገኘት ሪፖርት",
+    "attendance": "ተገኝነት",
+    "totalMeetings": "ጠቅላላ ስብሰባዎች",
+    "loadingError": "የመገኘት መረጃን መጫን አልተቻለም።",
+    "historyDate": "ቀን",
+    "historyStatus": "ሁኔታ"
+  },
+  "bulkSmsSheet": {
+    "label": "የቡድን መልዕክት",
+    "title": "ለ {{count}} አባል መልዕክት ላክ",
+    "title_plural": "ለ {{count}} አባላት መልዕክት ላክ",
+    "iosWarning": "የ iOS ገደብ: የቡድን ተቀባዮችን አስቀድሞ መሙላት አይቻልም። ሁሉንም ቁጥሮች እንቀዳለን፤ እርስዎ የመልዕክት መተግበሪያውን ከፍተው በ \"To:\" መስክ ላይ ይለጥፉ።",
+    "limitWarning": "ለታማኝነት ሲባል በመጀመሪያዎቹ 30 ቁጥሮች እንከፍታለን። የቀረውን እንደአስፈላጊነቱ መለጠፍ ይችላሉ።",
+    "messageLabel": "መልዕክት",
+    "messagePlaceholder": "የሚልኩትን መልዕክት እዚህ ይጻፉ…",
+    "viewRecipients": "ተቀባዮችን ይመልከቱ ({{count}})",
+    "hideRecipients": "ተቀባዮችን ደብቅ",
+    "andMore": "…እና {{count}} ሌሎች",
+    "copyNumbers": "ቁጥሮችን ቅዳ",
+    "openMessages": "መልዕክት ክፈት",
+    "openMessagesIos": "መልዕክት ክፈት (ቁጥሮች ይቀዳሉ)",
+    "openMessagesIosCopied": "መልዕክት ክፈት — ቁጥሮች ተቀድተዋል ✓"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "pageTitle": {
+    "heading": "{{zoneName}}",
+    "title": "{{hlgName}}",
+    "badge": "{{marked}}/{{total}}",
+    "loadingError": "የ HLG ዝርዝሮችን መጫን አልተቻለም። ኮንሶሉን ይመልከቱ።"
+  },
+  "chips": {
+    "present": "የተገኙ {{count}}",
+    "notified": "ያሳወቁ {{count}}",
+    "noShow": "ያልመጡ {{count}}",
+    "unmarked": "ምልክት ያልተደረገባቸው {{count}}"
+  },
+  "memberRow": {
+    "present": "ተገኝቷል",
+    "presentAria": "{{name}}ን እንደተገኙ ምልክት ያድርጉ",
+    "notified": "አሳውቋል",
+    "notifiedAria": "{{name}}ን አሳውቆ እንደቀረ ምልክት ያድርጉ",
+    "noShow": "አልመጣም",
+    "noShowAria": "{{name}}ን ያለማሳወቅ እንደቀረ ምልክት ያድርጉ",
+    "hasNoteAria": "ለዚህ አባል ማስታወሻ አለ",
+    "noPhone": "ስልክ የለም"
+
+  },
+  "form": {
+    "sessionTitleLabel": "የትምህርቱ ርዕስ",
+    "sessionTitlePlaceholder": "ለምሳሌ: የዮሐንስ ወንጌል — ምዕራፍ 2",
+    "sessionDateLabel": "የትምህርቱ ቀን",
+    "photosLabel": "የስብሰባ ፎቶዎች (በፈቃደኝነት)",
+    "addPhotosAria": "ፎቶዎችን ያክሉ",
+    "notesLabel": "ተጨማሪ ማስታወሻዎች (በፈቃደኝነት)",
+    "notesPlaceholder": "ስለ ስብሰባው ተጨማሪ አስተያየቶችን እዚህ ያስገቡ..."
+  },
+  "submitBar": {
+    "marked": "{{marked}}/{{total}} ምልክት ተደርጓል",
+    "review": "ይገምግሙና ያስገቡ",
+    "summary": "ማጠቃለያ",
+    "submit": "አስገባ"
+  },
+  "notifiedSheet": {
+    "label": "የማሳወቂያ ዝርዝሮች",
+    "title": "አሳውቀው የቀሩ",
+    "subtitle": "ምክንያት እና ተጨማሪ ማስታወሻ ይምረጡ",
+    "noteLabel": "ተጨማሪ ማስታወሻ (በፈቃደኝነት)",
+    "notePlaceholder": "ለምሳሌ: የዶክተር ቀጠሮ",
+    "reasons": {
+      "sick": "ህመም",
+      "travel": "ጉዞ",
+      "family": "ቤተሰብ ጉዳይ",
+      "work": "ስራ",
+      "emergency": "ድንገተኛ ጉዳይ",
+      "other": "ሌላ"
+    }
+  },
+  "summaryModal": {
+    "label": "የማስረከቢያ ማጠቃለያ",
+    "title": "የማስረከቢያ ማጠቃለያ",
+    "closeAria": "ማጠቃለያ ዝጋ",
+    "photosAttached": "የተያያዙ ፎቶዎች:",
+    "tableHeaderName": "ስም",
+    "tableHeaderStatus": "ሁኔታ",
+    "tableHeaderNote": "ማስታወሻ",
+    "error": "ማስገባት አልተሳካም: {{error}}",
+    "uploadError": "ፎቶዎችን መጫን አልተሳካም: የተወሰኑ ፎቶዎች አልተጫኑም። ከማስገባትዎ በፊት ሊያስወግዷቸው ወይም እንደገና መሞከር ይችላሉ።",
+    "resetAll": "ሁሉንም ዳግም አስጀምር",
+    "confirmReset": "እርግጠኛ ነዎት? ይህ ሁሉንም የመገኘት ምልክቶች እና የተጫኑ ፎቶዎችን ያጸዳል።",
+    "buttonConfirm": "አረጋግጥ እና አስገባ",
+    "buttonUploading": "እየተጫነ ነው...",
+    "buttonSubmitting": "እየገባ ነው...",
+    "buttonRetry": "እንደገና ሞክር"
+  },
+  "successScreen": {
+    "titleCreate": "በተሳካ ሁኔታ ገብቷል!",
+    "titleUpdate": "በተሳካ ሁኔታ ተስተካክሏል!",
+    "subtitle": "የመገኘት ሪፖርትዎ ተቀምጧል።",
+    "submissionId": "የመለያ ቁጥር: {{id}}",
+    "returnToDashboard": "ወደ ዳሽቦርድ ተመለስ"
+  },
+  "photoUpload": {
+    "removeAria": "ፎቶ {{name}}ን አስወግድ",
+    "error": "መጫን አልተሳካም"
+  },
+  "statusPill": {
+    "present": "ተገኝቷል",
+    "notified": "አሳውቋል",
+    "absent": "ቀሪ",
+    "unmarked": "—"
+  },
+  "alerts": {
+    "photosUploading": "ከማስገባትዎ በፊት እባክዎ ሁሉም ፎቶዎች ተጭነው እስኪጨርሱ ይጠብቁ።",
+    "submissionSuccess": "ገባ! መለያ ቁጥር: {{id}}\nየተገኙ: {{present}}, ያሳወቁ: {{notified}}, የቀሩ: {{absent}}",
+    "unknownError": "ያልታወቀ ስህተት ተፈጥሯል።"
+  },
+  "membersList": {
+    "empty": "ምንም አባላት የሉም።"
+  }
+}
