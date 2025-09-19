@@ -19,11 +19,11 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://api.halwot.com',
+        target: 'http://shenkor-api.halwot.com',
         changeOrigin: true,
         // ### FIXED: The 'rewrite' line has been removed. ###
         // This ensures that a request to '/api/auth/login' is proxied to
-        // 'https://api.halwot.com/api/auth/login' as your backend expects.
+        // 'https://shenkor-api.halwot.com/api/auth/login' as your backend expects.
       },
     },
   },
